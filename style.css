@@ -18,10 +18,30 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Figtree', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0;
+    color: var(--gray950-color);
     background: var(--yellow-color);
 }
 
-h1, p {
+a {
+    text-decoration: none;
+    color: var(--gray950-color);
+}
+
+a:hover {
+    color: var(--yellow-color);
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+p {
     margin: 0;
 }
 
@@ -48,9 +68,17 @@ h1, p {
 
 .category {
     padding: 4px 12px;
-    border-radius: 4px;
-    font-size: 14px;
+    border-radius: 4px; 
     font-weight: 800;
-    line-height: 150%;
     background: var(--yellow-color);
+}
+
+.published-date {
+    margin: 12px 0;
+}
+
+.description {
+    margin-top: 12px;
+    font-size: 16px;
+    color: var(--gray500-color);
 }
