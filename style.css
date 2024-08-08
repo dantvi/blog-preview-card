@@ -82,3 +82,20 @@ p {
     font-size: 16px;
     color: var(--gray500-color);
 }
+
+.author-container {
+    margin: 24px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.author-container img {
+    width: 32px;
+    height: 32px;
+}
+
+.author-name {
+    margin-left: 12px;
+    align-self: center;
+    font-weight: 800;
+}
