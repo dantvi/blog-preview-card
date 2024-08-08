@@ -104,3 +104,15 @@ p {
     align-self: center;
     font-weight: 800;
 }
+
+/* Media Query: Large Smartphone (Vertical) */
+@media screen and (max-width: 600px) {
+    .card {
+      width: 327px;
+      height: 501px;
+    }
+
+    .img-container img {
+        width: 100%;
+    }
+  }
