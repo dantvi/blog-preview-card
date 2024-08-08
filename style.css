@@ -67,7 +67,11 @@ p {
 }
 
 .category {
-    padding: 4px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 82px;
+    height: 29px;
     border-radius: 4px; 
     font-weight: 800;
     background: var(--yellow-color);
